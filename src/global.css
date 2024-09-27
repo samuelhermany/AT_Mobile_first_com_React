@@ -1,0 +1,59 @@
+:root {
+   --white: #ffffff;
+   --black: #000000;
+
+   --gray-100: #F5F5F5;
+   --gray-700: #2B3139;
+   --gray-800: #202024;
+   --gray-900: #13161f;
+
+   --green-100: #a7c7be;
+   /* --green-300: #00A699; */
+   --green-400: #00B37E;
+   /* --green-500: #00875f; */
+
+   --red-100: #FF4646;
+
+   --brown-400: #8C7D5D;
+   --brown-500: #7C6A46;
+   --brown-900: #4d432b;
+}
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: "Poppins", system-ui;
+   font-weight: 500;
+   font-style: normal;
+}
+
+.theme-dark {
+   color: var(--white);
+   background-color: var(--gray-800);
+}
+
+.theme-light {
+   color: var(--black);
+   background-color: var(--white);
+}
+
+.theme-dark-cabecalho {
+   color: var(--white);
+   background-color: var(--green-400);
+}
+
+.theme-light-cabecalho {
+   color: var(--black);
+   background-color: var(--green-100);
+}
+
+.theme-dark-button {
+   color: var(--red-100);
+   background-color: transparent;
+}
+
+.theme-light-button {
+   color: var(--black);
+   background-color: transparent;
+}

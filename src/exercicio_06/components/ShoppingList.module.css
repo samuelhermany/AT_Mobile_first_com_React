@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", system-ui;
+  font-weight: 500;
+  font-style: normal;
+  list-style: none;
+}
+
+
+.shopping_list {
+  width: 100%;
+  max-width: 600px;
+  min-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+
+.item-row{
+  display: flex;
+  width: 100%;
+}
+
+.valorUnit{
+  width: 30%;
+  text-align: center;
+}
+
+.quant{
+  width: 50%;
+  display: flex;
+}
+
+.quant input{
+  width: 50%;
+  min-width: 40px;
+  text-align: center;
+  padding: 0;
+  margin: auto;
+}
+
+.valortotal{
+  width: 30%;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .item_row {
+    cursor: pointer;
+  }
+
+  .item_row:hover {
+    background-color: #5f5e5e;
+  }
+}

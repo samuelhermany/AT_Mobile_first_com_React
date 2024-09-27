@@ -1,0 +1,9 @@
+.themeToggle {
+   border: none;
+   cursor: pointer;
+   font-size: 16px;
+}
+
+.themeToggle:hover {
+   text-decoration: underline; /* Efeito ao passar o mouse */
+}

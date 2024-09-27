@@ -1,0 +1,108 @@
+/* #region GERAL */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", system-ui;
+  font-weight: 500;
+  font-style: normal;
+  list-style: none;
+}
+
+.conteudo{
+  margin: 0 10px;
+}
+/* #endregion GERAL */
+
+/* #region MAIN */
+.banner{
+  display: none;
+}
+.banner_div{
+  display: flex;
+  justify-content: center;
+}
+.banner_mobile{
+  margin-top: 80px;
+  object-fit: cover;
+  width: 90%;
+}
+.titulo{
+  font-family: "Dancing Script", cursive;
+  font-weight: 600;
+  font-size: 40px;
+  color: var(--brown-500);
+  margin: 59px 0 26px 0;
+  text-align: center;
+}
+.sub_titulo{
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  width: 400px;
+  font-size: 40px;
+  margin-bottom: 23px;
+}
+.sub_titulo ~ p:first-of-type {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  width: 260px;
+  margin-bottom: 50px;
+}
+.btn_round{
+  border-radius: 50px;
+  width: 130px;
+  height: 45px;
+  border: none;
+  color: var(--white);
+  background-color: var(--brown-500);
+  cursor: pointer;
+}
+.btn_play{
+  width: 45px;
+  object-fit: cover;
+  margin: 0 20px 0 40px;
+  cursor: pointer;
+}
+.tour{
+  display: flex;
+  align-items: center;
+}
+.btn_play_titulo{
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  background-color: transparent;
+}
+/* #endregion MAIN */
+
+@media (min-width: 720px) {
+  body{
+    max-width: 1512px;
+    height: 100%;
+    margin: auto;
+  }
+
+  /* #region MAIN */
+  .conteudo{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    padding: 10px 10px;
+  }
+
+  .banner_div{
+    object-fit: cover;
+    width: 100%;
+    padding-right: 10px;
+  }
+  .banner_mobile{
+    display: none;
+  }
+
+  .banner{
+    display: inline-block;
+    max-width: 100%;
+    object-fit: cover;
+  }
+  /* #endregion MAIN */
+}

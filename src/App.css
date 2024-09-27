@@ -1,0 +1,25 @@
+main {
+  height: 100vh;
+  text-align: center;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  padding: 5px;
+  border: 2px black solid;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}

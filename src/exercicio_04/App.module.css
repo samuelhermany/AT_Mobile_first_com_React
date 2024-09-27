@@ -1,0 +1,32 @@
+/* #region GERAL */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", system-ui;
+  font-weight: 500;
+  font-style: normal;
+  list-style: none;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 0.5fr 1fr 3fr 0.5fr;
+  grid-template-areas:
+    "header header header"
+    "globalMenu globalMenu adSection"
+    "contextMenu mainContent adSection"
+    "footer footer footer";           
+  height: 100vh;
+  gap: 10px;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 10px;
+  background-color: #f0f0f0;
+  height: 100vh;
+}
